@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peter Ford's Resumé</title>
+        <!--this is how you connect it to the css file-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="#">RESUMÉ<span>CV</span></a>
+
+                <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                    <ul class="primary-nav">
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#">Skills</a></li>
+                    </ul>
+
+                    <ul class="secondary-nav">
+                        <li class="go-premium-cta"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <p class="subhead">Freshman at the University of Michigan</p>
+                    <h1>Peter Ford's Resumé</h1>
+
+                    <div class="hero-cta">
+                        <a href="https://bit.ly/3Ik6Ee1" class="primary-cta" target="_blank">Condensed Resumé</a>
+                    </div>
+
+                    <div class="me">
+                        <img src="images/sexy.jpeg" id="me" alt="illustration">
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="features">
+                <ul class="features-list">
+                    <li><a href="#robotics">Robotics</a></li>
+                    <li><a href="#msu">Fellowship with MSU</a></li>
+                    <li><a href="#rotc">Air Force ROTC</a></li>
+                    <li><a href="#gratzi">Gratzi Restaurant</a></li>
+                    <li><a href="#kfc">KFC</a></li>
+                    
+                </ul>
+                <!--jjjjjjjjjjjjj-->
+                <div class="coding">
+                    <img src="images/programming.jpeg" class="phone-photo" alt="Man holding phone">
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h1 id="experience">EXPERIENCE</h1>
+            <div class="container">
+                <ul>
+                    <li>
+                        <img src="images/robot.jpeg" id="robotics" alt="robotics">
+                        <blockquote>Worked on the programming subteam and programmed the robot to move a color wheel and stop on a specific color, pick up and shoot balls,
+                             and drive autonomously.</blockquote>
+                        <blockquote>October 2019 - March 2020</blockquote>
+                        <cite>Robotics</cite>
+                    </li>
+                    <li>
+                        <img src="images/msu.jpeg" id="msu" alt="msu">
+                        <blockquote>Fellow in the MSU St. Andrews programming summer internship. Learned the basics of Python and wrote a game utilizing pygame
+                            to raise awareness surrounding Coronavirus. The game promoted safety precautions such as masking, social distancing, and washing hands.
+                        </blockquote>
+                        <blockquote>June 2020 - August 2020</blockquote>
+                        <cite>Michigan State Fellowship</cite>
+                    </li>
+                    <li>
+                        <img src="images/af.jpg" id="rotc" alt="rotc">
+                        <blockquote>Contracted cadet in the AFROTC program at Detachment 390 at the University of Michigan. On scholarship resulting in 4 years of
+                             required service in return.</blockquote>
+                        <blockquote>August 2021 - Present</blockquote>
+                        <cite>Air Force ROTC</cite>
+                    </li>
+
+                    <li>
+                        <img src="images/gratzi.jpeg" id="gratzi" alt="restaurant">
+                        <blockquote>Had the privilege to work as a host at a fancy Italian restaurant where I was able to interact with and meet many diverse and amazing people.</blockquote>
+                        <blockquote>June 2021 - August 2021</blockquote>
+                        <cite>Gratzi</cite>
+                    </li>
+
+                    <li>
+                        <img src="images/kfc.jpeg" id="kfc" alt="kfc">
+                        <blockquote>You may be wondering why I would include working at a fast food restaurant on my resumé, but believe me, surprisingly, I grew so much as a person and in my understanding of working during my time at KFC.</blockquote>
+                        <blockquote>May 2020 - June 2021</blockquote>
+                        <cite>KFC</cite>
+                    </li>
+                </ul>
+
+
+                <h1 id="education">EDUCATION</h1>
+                <ul>
+                    <li>
+                        <img src="images/mich.png" id="uofm" alt="University of Michigan">
+                        <blockquote>Student in the college of LSA pursuing either a degree in computer science or information. Class of 2025 with a 3.65 gpa</blockquote>
+                        <blockquote>August 2021 - Present</blockquote>
+                        <cite>University of Michigan</cite>
+                    </li>
+    
+                    <li>
+                        <img src="images/dow.jpeg" id="school" alt="Dow High">
+                        <blockquote>Magna Cum Laude, Top 15% Class Rank</blockquote>
+                        <blockquote>September 2017- May 2021</blockquote>
+                        <cite>HH Dow High School</cite>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+        
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-left">
+                    <h2 id="contact" method="post" action="contact-form-handler.php">Contact</h2>
+                    <h4>This section does not currently work, if you would like to contact me, please reach 
+                        me at my email (peteford21@hotmail.com) or my phone (989-488-9247). Thanks!</h4>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="email">Your email</label>
+                        <input type="text" id="email" name="email">
+
+                        <label for="message">Message</label>
+                        <textarea name="messsage" id="message" cols="30" rows="10"></textarea>
+
+                        <input type="submit" class="send-message-cta" value="Send message">
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94471.79926188313!2d-83.73768944999999!3d42.2733204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb00dd4431f33%3A0xdb09f94686c8b5e2!2sAnn%20Arbor%2C%20MI!5e0!3m2!1sen!2sus!4v1641014319380!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav')
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+            mobileBtn.addEventListener('click', () => {
+                nav.classList.add('menu-btn');
+            })
+
+            mobileBtnExit.addEventListener('click', () => {
+                nav.classList.remove('menu-btn');
+            })
+
+        </script>
+
+    </body>
+</html>
